@@ -46,7 +46,7 @@ h1 {
 h1:after {
     display: block;
     height: 2px;
-    background-color: #3498db;
+    background-color: #00b2b8;
     content: " ";
     width: 150px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ h2 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #3498db;
+    background-color: #00b2b8;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -116,7 +116,7 @@ h4:after {
 .icon-big {
     font-size: 400%;
     display: block;
-    color: #3498db;
+    color: #00b2b8;
     margin-bottom: 10px;
     padding-left: 33%;
 }
@@ -136,19 +136,19 @@ input[type=submit] {
 }
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #3498db;
-    color: #3498db;
+    border: 1px solid #00b2b8;
+    color: #00b2b8;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #3498db;
+    background-color: #00b2b8;
 }
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #3498db;
+    border: 1px solid #00b2b8;
     color: #fff;
 }
 
@@ -173,19 +173,19 @@ input[type=submit] {
 }
 .btn-sign:link,
 .btn-sign:visited {
-    border: 1px solid #3498db;
-    color: #3498db;
+    border: 1px solid #00b2b8;
+    color: #00b2b8;
 }
 
 .but:hover,
 .but:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #3498db;
+    background-color: #00b2b8;
 }
 .btn-sign:hover,
 .btn-sign:active {
-    border: 1px solid #3498db;
+    border: 1px solid #00b2b8;
     color: #fff;
 }
 
@@ -211,19 +211,19 @@ input[type=submit] {
 }
 .btn-details:link,
 .btn-details:visited {
-    border: 1px solid #3498db;
-    color: #3498db;
+    border: 1px solid #00b2b8;
+    color: #00b2b8;
 }
 
 .butt:hover,
 .butt:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #3498db;
+    background-color: #00b2b8;
 }
 .btn-details:hover,
 .btn-details:active {
-    border: 1px solid #3498db;
+    border: 1px solid #00b2b8;
     color: #fff;
 }
 
@@ -303,7 +303,7 @@ li:hover {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #00b2b8;
 }
 
 /* Mobile Nav */
@@ -324,24 +324,18 @@ li:hover {
 /* ------------------------------------------------------------------- */
 
 .about {
-    margin-top: 2%;
-    margin-bottom: 1%;
+    background-color: #1e2a3c;
+    color: #fff;
 }
 
 .r1 h3,
 .r2 h3 {
-    background-color: #3498db;
     color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 /* DIVIDER LINE BETWEEN THE PARAGRAPH AND MARGINE */
-.r1 p,
-.r2 p {
-    border-bottom: 1px solid #3498db;
-    padding-bottom: 8px;
-}
 
 .r2 {
     margin-top: 4%;
@@ -364,23 +358,23 @@ li:hover {
 .box5,
 .box6 {
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .box3 {
-    margin-left: 10%;
+    margin-left: 1.5%;
 }
 
 .box2 {
-    margin-left: 12.5%;
+    margin-left: -1.5%;
 }
 
 .box6 {
-    margin-left: 10%;
+    margin-left: 1%;
 }
 
 .box5 {
-    margin-left: 12.5%;
+    margin-left: -1%;
 }
 
 .box1 p {
@@ -397,9 +391,15 @@ li:hover {
 
 .de p {
     font-size: 19px;
-    color: #3498db;
+    color: #00b2b8;
     margin-top: 4%;
     margin-left: 38%;
+    padding-bottom: 2%;
+}
+
+/* SET ICONS TO THE RIGHT */
+.ir {
+    margin-left: 5.5%;
 }
 
 /* ------------------------------------------------------------------- */
@@ -407,7 +407,7 @@ li:hover {
 /* ------------------------------------------------------------------- */
 
 footer {
-    background-color: #3498db;
+    background-color: #182130;
     padding: 50px;
 }
 
