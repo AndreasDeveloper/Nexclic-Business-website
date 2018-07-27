@@ -192,7 +192,7 @@ input[type=submit]:active {
 /* SIGN UP BUTTON */
 #btnsu {
     position: absolute;
-    left: 85%;
+    left: 86%;
     top: 6%;
     cursor: pointer;
 }
@@ -279,10 +279,15 @@ header {
     margin-left: 40%;
 }
 
+li:hover {
+    cursor: pointer;
+}
+
 .main-nav li {
+    position: relative;
     display: inline-block;
     margin-left: 55px;
-    margin-top: 45px;
+    margin-top: 13.8%;
 }
 
 .main-nav li a:link,
